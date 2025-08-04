@@ -1,0 +1,15 @@
+# stype: 0 - Thompson; 1 - Compton, Thompson cross-section; 2 - Klein-Nishina cross section
+stype = 2
+recoil = 1
+# pattern: spatial distribution of primary photon
+# 0 - center; 1 - uniformly distributed; 2 - bottom
+pattern = 0
+tau = 10
+# me: Energy unit; 0 - keV; 1: electron rest mass
+me = 0
+Te = 0.5 keV
+# thermal_primary: wheter the priamry radiation is thermal or non-thermal (powerlaw)
+thermal_primary = 1
+Tbb = 0.01 keV
+dl = 0.001
+Nphoton = 1000000

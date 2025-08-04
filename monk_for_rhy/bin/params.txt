@@ -1,0 +1,29 @@
+[physical]
+a = 0.998
+m = 1e7
+mdot = 1.
+height = 1.5
+#s = 2.
+smax = 10.
+#omega = 0.1
+vr = 0.1
+smax = 10.
+gamma = 2.
+te = 100.
+muobs = 0.5
+alphamax = 100.
+emin = 0.01
+emax = 20.
+
+[gridsize]
+ntheta = 500
+nphi = 500
+nalpha = 1000
+nbeta = 1000
+ne = 1000
+
+[option]
+onaxis = false
+rotation = false
+jet = true
+infcomp = false

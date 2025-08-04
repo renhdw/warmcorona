@@ -1,0 +1,13 @@
+[physical]
+te = 0.5
+tau = 10
+tbb = 0.003
+
+[gridsize]
+nphoton = 100000
+
+[option]
+stype = 2
+pattern = 0
+me = 0
+thermal = 1
