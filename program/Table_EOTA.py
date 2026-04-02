@@ -170,7 +170,7 @@ def main():
     for idx, row in spec_df.iterrows():
         no = row["No"]
         flux = flux_array_list[idx]
-
+ 
         # 单条归一化
         flux_max = flux.max()
         flux_norm = flux / flux_max if flux_max > 0 else flux

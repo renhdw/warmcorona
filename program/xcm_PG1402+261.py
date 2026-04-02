@@ -1,5 +1,4 @@
 
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -54,11 +53,11 @@ model zTBabs*TBabs(nthComp + atable{{{model_path}}} + xillver)
 # ================= 配置区 =================
 
 # 目标目录（Linux 路径；通常放在 ObsID 目录内）
-OUTPUT_DIR = "~/data/XMM/PG1116+215/0554380301/xcm"
+OUTPUT_DIR = "~/data/XMM/PG1402+261/0400200101/xcm"
 
 # 两个输出文件名（slab / sphere 各一份）
-XCM_SLAB   = "fit_model_Tom_slab_PG1116+215.xcm"
-XCM_SPHERE = "fit_model_tv_Tom_sphere_PG1116+215.xcm"
+XCM_SLAB   = "fit_model_Tom_slab_PG1402+261.xcm"
+XCM_SPHERE = "fit_model_tv_Tom_sphere_PG1402+261.xcm"
 
 # 两个模型路径
 MODEL_SLAB   = "/home/hdw/data/monk/plot/warmcorona/model/warmcom/warmcom_0.1-0.6_5-25_pure_Tom_slab_107.mod"
@@ -67,8 +66,8 @@ MODEL_SPHERE = "/home/hdw/data/monk/plot/warmcorona/model/warmcom/warmcom_0.1-1.
 # 自定义模型参数（与你现有的一致）
 params = [
     1,          # zTBabs:nH
-    0.176, # zTBabs:Redshift (frozen)
-    1.22E-2,    # TBabs:nH (frozen)
+    0.164, # zTBabs:Redshift (frozen)
+    1.23E-2,    # TBabs:nH (frozen)
     1.5,        # nthComp:Gamma
     100,        # nthComp:kT_e
     3.00000E-03,# nthComp:kT_bb (frozen)

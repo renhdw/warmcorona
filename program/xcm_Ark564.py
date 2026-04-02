@@ -52,9 +52,9 @@ model zTBabs*TBabs(nthComp + atable{{{model_path}}} + xillver)
 
 # 目标目录（Linux 路径）
 output_directory = "~/data/XMM/Ark564/0830540101/xcm"# 现在一般都在ID文件夹内，先经过SAS数据处理
-output_filename = "fit_model_tv_clean_2_Ark564.xcm"
+output_filename = "fit_model_tv_clean_Tom_Ark564.xcm"
 #output_filename = "~/data/XMM/Mrk509/06013390201/xcm/fit_model_lowess_mrk509.xcm"
-model_file = "/home/hdw/data/monk/plot/warmcorona/model/warmcom/warmcom_0.1-2.0_10-20_smoothed_tv_clean_2.mod"
+model_file = "/home/hdw/data/monk/plot/warmcorona/model/warmcom/warmcom_0.1-2.0_10-20_smoothed_tv_clean_Tom.mod"
 
 # 自定义模型参数（按你的需求修改）
 params = [

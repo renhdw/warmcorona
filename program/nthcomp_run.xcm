@@ -1,0 +1,16 @@
+
+model nthComp
+2.77
+0.9
+0.003
+0
+0.0
+1
+newpar 2 0.9 1e-3 0.1 0.1 10 1000
+cpd /null
+energies 0.1 10 1000 log
+plot model
+setplot command wdata /home/hdw/data/monk/plot/warmcorona/program/nthcomp.qdp
+setplot command exit
+iplot
+exit

@@ -1,0 +1,13 @@
+
+model atable{/home/hdw/data/monk/plot/warmcorona/model/warmcom/warmcom_0.1-1.0_10-20_smoothed_tv_clean_Tom_slab.mod}
+0.9
+7.867224063534425
+0.0
+1
+energies 0.1 10 1000 log
+cpd /null
+plot model
+setplot command wdata /home/hdw/data/monk/plot/warmcorona/program/warmcom.qdp
+setplot command exit
+iplot
+exit

@@ -1,4 +1,3 @@
-
 import os
 
 # 用于一键处理数据，仅能在linux下运行
@@ -52,31 +51,31 @@ model zTBabs*TBabs(nthComp + atable{{{model_path}}} + xillver)
 
 
 # 目标目录（Linux 路径）
-output_directory = "~/data/XMM/Mrk359/0830550801/xcm"# 现在一般都在ID文件夹内，先经过SAS数据处理
-output_filename = "fit_model_tv_clean_Tom_slab_mrk359.xcm"
+output_directory = "~/data/XMM/Ark120/0721600201/xcm"# 现在一般都在ID文件夹内，先经过SAS数据处理
+output_filename = "fit_model_tv_clean_Tom_Ark120.xcm"
 #output_filename = "~/data/XMM/Mrk509/06013390201/xcm/fit_model_lowess_mrk509.xcm"
-model_file = "/home/hdw/data/monk/plot/warmcorona/model/warmcom/warmcom_0.1-1.0_10-20_smoothed_tv_clean_Tom_slab.mod"
+model_file = "/home/hdw/data/monk/plot/warmcorona/model/warmcom/warmcom_0.1-2.0_10-20_smoothed_tv_clean_Tom.mod"
 
 # 自定义模型参数（按你的需求修改）
 params = [
     1,  # zTBabs:nH
-    1.67891E-02,  # zTBabs:Redshift (frozen)
-    4.38E-2,  # TBabs:nH (frozen)
+    0.03256885,  # zTBabs:Redshift (frozen)
+    9.98E-2,  # TBabs:nH (frozen)
     1.5,  # nthComp:Gamma
     100,  # nthComp:kT_e
     3.00000E-03,  # nthComp:kT_bb (frozen)
     0,  # nthComp:inp_type (frozen)
-    1.67891E-02,  # nthComp:Redshift (= p2)
+    0.03256885,  # nthComp:Redshift (= p2)
     1,  # nthComp:norm
     1,  # warmcom:te
     12,  # warmcom:tau
-    1.67891E-02,  # warmcom:z (= p2)
+    0.03256885,  # warmcom:z (= p2)
     1,  # warmcom:norm
     1.5,  # xillver:gamma (= nthComp:Gamma)p14
     1,  # xillver:Afe (frozen)
     300,  # xillver:Ecut (frozen)
     0,  # xillver:logxi
-    1.67891E-02,  # xillver:z (= p2)
+    0.03256885,  # xillver:z (= p2)
     30,  # xillver:Incl
     -1.0,  # xillver:refl_frac (frozen)
     1  # xillver:norm
